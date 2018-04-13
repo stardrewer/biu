@@ -69,6 +69,14 @@ header section.content {
     padding-bottom: 2rem;
     background: url("bgp.png") no-repeat bottom right;
 }
+header #poi {
+    background: url("poi.jpg") no-repeat bottom right;
+    background-size: 270px;
+}
+header #nico {
+    background: url("nico.png") no-repeat bottom right;
+    background-size: 410px;
+}
 
 header a.logo {
     text-decoration: none;
