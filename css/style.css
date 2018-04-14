@@ -76,14 +76,14 @@ header {
 }
 header section.content {
     padding-bottom: 2rem;
-    background: url("bgp.png") no-repeat bottom right;
+    background: url("../image/bgp.png") no-repeat bottom right;
 }
 header #poi {
-    background: url("poi.jpg") no-repeat bottom right;
+    background: url("../image/poi.jpg") no-repeat bottom right;
     background-size: 270px;
 }
 header #nico {
-    background: url("nico.jpg") no-repeat bottom right;
+    background: url("../image/nico.jpg") no-repeat bottom right;
     background-size: 270px;
 }
 
