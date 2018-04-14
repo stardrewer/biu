@@ -1,4 +1,8 @@
 @charset "utf-8";
+::-webkit-scrollbar{
+    /*滚动条隐藏*/
+  display:none;
+}
 *{box-sizing:border-box}
 .yue{font:300 1em/1.62 Georgia,"Xin Gothic","Hiragino Sans GB","Droid Sans Fallback","Microsoft YaHei",sans-serif;color: #212121;}
 .windows .yue{font-size:16px;font-family:Georgia,SimSun,sans-serif}
@@ -54,6 +58,9 @@ body {
 
     /*font-family: PingFang SC,Lantinghei SC,Microsoft Yahei,Hiragino Sans GB,Microsoft Sans Serif,WenQuanYi Micro Hei,sans;*/
     margin: 0;
+
+    /*滚动条强制显示*/
+    overflow-y: scroll;
 }
 body ::selection{background-color:#d8d8d8}
 section.content {
@@ -75,7 +82,7 @@ header #poi {
 }
 header #nico {
     background: url("nico.png") no-repeat bottom right;
-    background-size: 410px;
+    background-size: 360px;
 }
 
 header a.logo {
