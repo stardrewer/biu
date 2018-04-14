@@ -91,7 +91,23 @@ header a.logo {
     float: left;
     margin: 16px 0;
 }
+header a.activelogo{
+    text-decoration: none;
+
+    float: left;
+    margin: 16px 0;
+    border-bottom: 2px solid #dc1313;
+}
 header a.logo img {
+    display: inline-block;
+    width: 48px;
+    height: 48px;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+
+}
+header a.activelogo img {
     display: inline-block;
     width: 48px;
     height: 48px;
