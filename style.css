@@ -1,8 +1,9 @@
 @charset "utf-8";
 ::-webkit-scrollbar{
     /*滚动条隐藏*/
-  display:none;
+  /*display:none;*/
 }
+
 *{box-sizing:border-box}
 .yue{font:300 1em/1.62 Georgia,"Xin Gothic","Hiragino Sans GB","Droid Sans Fallback","Microsoft YaHei",sans-serif;color: #212121;}
 .windows .yue{font-size:16px;font-family:Georgia,SimSun,sans-serif}
@@ -68,6 +69,7 @@ section.content {
     margin: 0 auto;
     padding: 5px 10px;
 }
+
 header {
     background-color: #FCFCFC;
     border-bottom: solid 1px #DDD;
@@ -81,8 +83,8 @@ header #poi {
     background-size: 270px;
 }
 header #nico {
-    background: url("nico.png") no-repeat bottom right;
-    background-size: 360px;
+    background: url("nico.jpg") no-repeat bottom right;
+    background-size: 270px;
 }
 
 header a.logo {
